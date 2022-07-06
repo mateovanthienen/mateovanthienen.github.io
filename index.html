@@ -9,21 +9,8 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	<link href="css/fonts/webfontkit/stylesheet.css" rel="stylesheet" type="text/css">
-	<!-- Hotjar Tracking Code for mateovanthienen.com -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1574006,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-    </head>
 	
 <body>
-
   <br>
 	<div class="container-fluid" align="center">
 		<a href="index.html" class="btn">
@@ -31,16 +18,27 @@
 		</a>
 	</div>
 		<div class="container-fluid">
-			<ul class="nav justify-content-center" style="height: auto">
+			<ul class="nav justify-content-center">
   				<li class="nav-item">
-    				<a class="nav-link active h4" aria-current="page" href="index.html">Home</a>
+    				<a class="nav-link active h4" style="color: black" aria-current="page" href="index.html">Home</a>
   				</li>
-  				<li class="nav-item">
-    				<a class="nav-link h4" href="#">Work</a>
-  				</li>
-  				<li class="nav-item">
-    				<a class="nav-link h4" href="#">Blog</a>
-  				</li>
+  				<li class="nav-item dropdown">
+        			<a class="nav-link h4" style="color: black" href="#" id="navbarDropdownMenuLinkWork" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work
+					</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkWork" style="border-color: transparent">
+          				<a class="dropdown-item" href="resume.html">Resume</a>
+          				<a class="dropdown-item" href="#">Portfolio</a>
+        			</div>
+      			</li>
+  				<li class="nav-item dropdown">
+        			<a class="nav-link h4" style="color: black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog
+					</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="border-color: transparent">
+          				<a class="dropdown-item" href="https://instagram.com/urban.mateo" target="_blank" >urban.mateo</a>
+          				<a class="dropdown-item" href="https://instagram.com/art.x.mateo" target="_blank">art.x.mateo</a>
+          				<a class="dropdown-item" href="blog.html">Articles</a>
+        			</div>
+      			</li>
   				<li class="nav-item">
     				<a class="nav-link disabled h4">Shop</a>
   				</li>
@@ -50,53 +48,6 @@
 	<div class="container-fluid" align="center">
 		<img src="images/I-am-a.gif" height="50rem" alt="I am a designer">
 	</div>
-	<!--div class="container-fluid" align="center">
-		<h6 align="left" >Welcome to my website, it's nice to have you here.<br>I am a designer with five years of experience in urban design and strategic planning, with a proven track record of leadership and entrepreneurship across different organizations.<br>Here, you'll find projects I've worked on across the years to hopefully give you an idea of my skills and interests.
-		</h6>
-	 </div-->
-	<!--div class="row no-gutters">
-  		<div class="col-sm-6">
-			<a href="#" class="btn">
-    			<div class="card"  style="border-color: transparent">
-					<img src="images/2376HybridAssig08_VanThienen.jpg" class="card-img" alt="..."  style="opacity: 50%">
-      				<div class="card-img-overlay">
-        				<h5 class="card-title">Card Title</h5>
-      				</div>
-				</div>
-			</a>
-  		</div>
-  		<div class="col-sm-6">
-			<a href="#" class="btn">
-    			<div class="card"  style="border-color: transparent">
-					<img src="images/2376HybridAssig08_VanThienen.jpg" class="card-img" alt="..."  style="opacity: 50%">
-      				<div class="card-img-overlay">
-        				<h5 class="card-title">Card Title</h5>
-      				</div>
-				</div>
-			</a>
-  		</div>
-	</div-->
-	<!--section class="pt-5">
-      <div class="container">
-        <h2 class="h1 text-lg lined">Selected works</h2>
-        <p class="lead mb-5">You can make also image gallery with this section easily.</p>
-      </div>
-      <div class="row"><a href="images/2376HybridAssig08_VanThienen.jpg" data-lightbox="gallery" data-title="Description of Project No.1" class="col-lg-3 col-sm-6 p-0"><img src="images/..." alt="" class="img-fluid"></a><a href="img/portfolio/business-card-26.jpg" data-lightbox="gallery" data-title="Description of Project No.2" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/business-card-26.jpg" alt="" class="img-fluid"></a><a href="img/portfolio/gravity-paper.jpg" data-lightbox="gallery" data-title="Description of Project No.3" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/gravity-paper.jpg" alt="" class="img-fluid"></a><a href="img/portfolio/envelope-brand.jpg" data-lightbox="gallery" data-title="Description of Project No.4" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/envelope-brand.jpg" alt="" class="img-fluid"></a><a href="img/portfolio/business-card.jpg" data-lightbox="gallery" data-title="Description of Project No.5" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/business-card.jpg" alt="" class="img-fluid"></a><a href="img/portfolio/trifold.jpg" data-lightbox="gallery" data-title="Description of Project No.6" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/trifold.jpg" alt="" class="img-fluid"></a><a href="img/portfolio/label-clothes.jpg" data-lightbox="gallery" data-title="Description of Project No.7" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/label-clothes.jpg" alt="" class="img-fluid"></a><a href="img/portfolio/ipad-air-2.jpg" data-lightbox="gallery" data-title="Description of Project No.8" class="col-lg-3 col-sm-6 p-0"><img src="img/portfolio/ipad-air-2.jpg" alt="" class="img-fluid"></a>
-      </div>
-    </section-->
-	<!--div class="row no-gutters"-->
-      
-	<!-- DEMO 3 Item-->
-      <!--div class="col-sm-6">
-        <div class="hover hover-3 text-white rounded"><img src="images/2376HybridAssig08_VanThienen.jpg" alt="">
-          <div class="hover-overlay"></div>
-          <div class="hover-3-content px-5 py-4">
-            <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Image </span>Caption</h3>
-            <p class="hover-3-description small text-uppercase mb-0">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p>
-          </div>
-        </div>
-      </div>
-	</div-->
 
 	<div class="fixed-bottom">
 	  			<h5 align="center">Mateo Van Thienen<br>
