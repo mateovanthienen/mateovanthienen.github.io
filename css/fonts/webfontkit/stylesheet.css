@@ -11,3 +11,11 @@
     font-style: normal;
 
 }
+
+.shopbutton {
+  display: none;
+}
+
+.shopimage:hover + .shopbutton {
+  display: block;
+}
