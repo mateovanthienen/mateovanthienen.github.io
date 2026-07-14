@@ -1,0 +1,150 @@
+/* Designer Information Booklet — page-specific styles */
+
+.booklet-hero {
+  padding: clamp(120px, 16vw, 180px) 0 clamp(48px, 8vw, 80px);
+  border-bottom: 1px solid var(--line);
+}
+.booklet-hero h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  font-size: clamp(32px, 5.4vw, 64px);
+  line-height: 1.02;
+  margin: 14px 0 22px;
+  max-width: 18ch;
+}
+.booklet-hero p {
+  color: var(--paper-dim);
+  font-size: clamp(15px, 1.6vw, 18px);
+  max-width: 60ch;
+  margin: 0;
+}
+
+.booklet-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: clamp(32px, 6vw, 88px);
+  padding-top: clamp(48px, 8vw, 80px);
+  padding-bottom: clamp(64px, 10vw, 120px);
+  align-items: start;
+}
+
+.booklet-toc {
+  position: sticky;
+  top: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.toc-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--paint);
+  margin-bottom: 6px;
+}
+.booklet-toc a {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--paper-dim);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  padding: 3px 0;
+  transition: color 0.2s ease;
+}
+.booklet-toc a:hover { color: var(--paint); }
+.toc-back {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--paper) !important;
+}
+
+.b-block {
+  padding: 40px 0;
+  border-top: 1px solid var(--line);
+  position: relative;
+  scroll-margin-top: 100px;
+}
+.b-block:first-child { border-top: none; padding-top: 0; }
+.b-num {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--paint);
+  display: block;
+  margin-bottom: 10px;
+}
+.b-block h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  font-size: clamp(22px, 2.6vw, 30px);
+  margin: 0 0 18px;
+}
+.b-block p {
+  color: var(--paper-dim);
+  font-size: 15.5px;
+  max-width: 68ch;
+  margin: 0 0 16px;
+}
+.b-block p:last-child { margin-bottom: 0; }
+.b-block ul, .b-block ol {
+  color: var(--paper-dim);
+  font-size: 15.5px;
+  max-width: 68ch;
+  padding-left: 22px;
+  margin: 0 0 16px;
+}
+.b-block li { margin-bottom: 8px; }
+.b-block strong { color: var(--paper); font-weight: 600; }
+
+.qa { margin-bottom: 22px; }
+.qa:last-child { margin-bottom: 0; }
+.qa .q {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--paper);
+  margin-bottom: 6px !important;
+}
+
+.b-cta {
+  margin-top: 20px;
+  padding: clamp(32px, 5vw, 56px);
+  border: 1px solid var(--line);
+  text-align: center;
+}
+.b-cta h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  font-size: clamp(24px, 3vw, 34px);
+  margin: 0 0 10px;
+}
+.b-cta p {
+  color: var(--paper-dim);
+  margin: 0 0 24px;
+}
+.b-cta .cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .booklet-layout { grid-template-columns: 1fr; }
+  .booklet-toc {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+  .toc-label { width: 100%; }
+  .toc-back { margin-top: 0; padding-top: 0; border-top: none; }
+}
