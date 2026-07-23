@@ -104,7 +104,7 @@ const PROJECTS = [
     client: "Broward MPO",
     skills: ["AutoCAD", "SketchUp", "Lumion", "Illustrator", "Photoshop"],
     images: ["images/portfolio_2026/Broward_SS4A_1.jpg", "images/portfolio_2026/Broward_SS4A_2.jpg", "images/portfolio_2026/Broward_SS4A_3.jpg"],
-    link: { label: "View Quick-Build Concepts", url: "https://acbrowardmetro-my.sharepoint.com/personal/info_browardmpo_org/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Finfo%5Fbrowardmpo%5Forg%2FDocuments%2FPrograms%2FSafety%2FBroward%20Safety%20Action%20Plan%20%28BSAP%29%2FAppendix%20F%2D%20Resources%20for%20Actions%2FAppendix%20F6%2D%20Quick%20Build%20Design%20Concepts&ga=1" },
+    link: { label: "Project Website", url: "https://broward-safety-action-plan-browardmpo.hub.arcgis.com/pages/the-action-plan" },
   },
   {
     id: "broward-safety-action-plan-quick-build-concepts",
@@ -116,7 +116,7 @@ const PROJECTS = [
     client: "Broward MPO",
     skills: ["ArcGIS", "AutoCAD", "Illustrator", "Photoshop", "InDesign"],
     images: ["images/portfolio_2026/Broward_SS4A.jpg"],
-    link: { label: "View Quick-Build Concepts", url: "https://acbrowardmetro-my.sharepoint.com/personal/info_browardmpo_org/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Finfo%5Fbrowardmpo%5Forg%2FDocuments%2FPrograms%2FSafety%2FBroward%20Safety%20Action%20Plan%20%28BSAP%29%2FAppendix%20F%2D%20Resources%20for%20Actions%2FAppendix%20F6%2D%20Quick%20Build%20Design%20Concepts&ga=1" },
+    link: { label: "Project Website", url: "https://broward-safety-action-plan-browardmpo.hub.arcgis.com/pages/the-action-plan" },
   },
   {
     id: "city-of-gainesville-2045-mobility-plan-mobility-fe",
@@ -128,7 +128,7 @@ const PROJECTS = [
     client: "City of Gainesville",
     skills: ["Illustrator", "InDesign"],
     images: ["images/portfolio_2026/Gainesville.jpg"],
-    link: null,
+    link: { label: "Project Website", url: "https://www.gainesvillefl.gov/Government-Pages/Government/Departments/Transportation/Mobility-Plan" },
   },
   {
     id: "west-colonial-drive-corridor-study-creative-placem",
@@ -140,7 +140,7 @@ const PROJECTS = [
     client: "City of Orlando",
     skills: ["SketchUp", "Illustrator", "Photoshop", "InDesign"],
     images: ["images/portfolio_2026/Colonial.jpg"],
-    link: null,
+    link: { label: "Project Website", url: "https://www.orlando.gov/Our-Government/Departments-Offices/Economic-Development/City-Planning/Plans-Studies/West-Colonial-Drive-Corridor-Study" },
   },
   {
     id: "south-miami-placemaking-branding-urban-design-exis",
@@ -320,7 +320,7 @@ const PROJECTS = [
     client: "Virginia Department of Transportation",
     skills: ["AutoCAD", "SketchUp", "Photoshop"],
     images: ["images/portfolio_2026/Shreve.jpg"],
-    link: null,
+    link: { label: "Read the Report", url: "files/Shreve_Road_Corridor_Study.pdf" },
   },
   {
     id: "city-of-charlotte-uptown-cycle-link",
@@ -404,7 +404,7 @@ const PROJECTS = [
     client: "",
     skills: ["ArcGIS", "Research & Writing"],
     images: ["images/portfolio_2026/Thesis.jpg"],
-    link: null,
+    link: { label: "Read the Thesis", url: "files/VanThienen_Mateo_2019_A_Geodesign_Approach_to_Better_Understand_the_Resiliency_of_Florida_Urban_Form.pdf" },
   },
   {
     id: "analyzing-gainesville-s-bicycle-infrastructure",
@@ -416,7 +416,7 @@ const PROJECTS = [
     client: "",
     skills: ["ArcGIS", "Research & Writing"],
     images: ["images/portfolio_2026/DCP_2002.jpg"],
-    link: null,
+    link: { label: "Read the Paper", url: "files/DCP_2002_Final.pdf" },
   },
   {
     id: "new-archer-road-for-everyone",
@@ -428,7 +428,7 @@ const PROJECTS = [
     client: "",
     skills: ["Illustrator", "Photoshop"],
     images: ["images/portfolio_2026/Archer_Rd.jpg"],
-    link: null,
+    link: { label: "Read the Proposal", url: "files/NewArcherRd.pdf" },
   },
   {
     id: "weston-multimodal-plan-proposal",
@@ -440,7 +440,7 @@ const PROJECTS = [
     client: "City of Weston",
     skills: ["ArcGIS", "SketchUp", "Photoshop", "Illustrator", "InDesign"],
     images: ["images/portfolio_2026/Weston_1.jpg", "images/portfolio_2026/Weston_2.jpg", "images/portfolio_2026/Weston_4.jpg"],
-    link: null,
+    link: { label: "Read the Proposal", url: "files/Weston_Multimodal_Plan_Proposal.pdf" },
   },
   {
     id: "city-of-cape-coral-2045-mobility-plan-mobility-fee",
